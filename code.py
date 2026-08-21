@@ -89,8 +89,59 @@
 # print("End of code") 
 
 
+# -------- SET --------
 
+# numbers={1,2,3,3,4}
+# print(numbers)
 
+# a={1,2,3}
+# b={3,4,5}
+# print(a.intersection(b))
 
+# ----- == vs is ------
 
+# a=[1,2,3]
+# b=[1,2,3]
+# print(a==b)
+# print(a is b)
 
+# ------ append() --------
+
+# a=[1,2]
+# a.append([3,4])
+# print(a)
+
+# ------ extend() -------
+
+# a=[1,2]
+# a.extend([3,4])
+# print(a)
+
+# ------- Dictionary -------
+
+# student = {
+#     "name":"Prashant",
+#     "age":22,
+#     "course":"B.tech"
+# } 
+# print(student["name"])
+# print(student["age"])
+# print(student["course"])
+
+# ----------- Function ---------
+
+# def add(a,b):
+#     return a+b 
+
+# result=add(31,5)
+# print(result)
+
+# -------- Lambda Function ---------
+
+# def square(x):
+#     return x*x 
+
+# print(square(5))
+
+# sqaure=lambda x:x*x
+# print(sqaure(5))
