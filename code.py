@@ -145,3 +145,24 @@
 
 # sqaure=lambda x:x*x
 # print(sqaure(5))
+
+# --------- Exception Handling -----------
+
+# try:
+#     a=10
+#     b=0
+
+#     print(a/b)
+
+# except ZeroDivisionError:
+#     print("Cannot divide by zero")
+
+
+# try:
+#     print("Hello")
+
+# except:
+#     print("Error")
+
+# finally:
+#     print("Always executes")
