@@ -166,3 +166,82 @@
 
 # finally:
 #     print("Always executes")
+
+
+# --------- Range --------
+
+# range(n) ---->  0 to n-1
+# range(start, stop, step)
+
+# nums = range(5) # [0,1,2,3,4]
+# print(nums)
+# n=range(1,6)
+# print(n)
+
+# ------------ while Loop ----------
+
+# Loops => repeat
+
+# counter=1
+# while counter <= 5:
+#     print("Counter no.",counter)
+#     counter += 1
+
+# print("End of loop")
+
+
+
+# i=1
+# while i<=5:
+#     print(i * "*")
+#     i +=1
+
+
+
+# i=5
+# while i>=0:
+#     print(i * "*")
+#     i -=1
+
+
+# ------------ For Loop -----------
+
+# 0 to 4 
+# for i in range(5):
+#       print(i)
+
+
+# 1 to 5
+# for i in range(1,6):
+#     print(i)
+
+
+# 1 to 10 => even number
+# for i in range(1,11):
+#     if(i%2==0):
+#         print(i)
+
+# # odd number
+# for i in range(1,11):
+#     if(i%2 != 0):
+#         print(i)
+
+
+
+# ----------- break & continue ------------
+
+# multiples of 3 [1 to 50] 
+
+# for i in range(1, 51):
+#     if(i==21):
+#         break
+#     if(i%3==0):
+#         print(i)
+
+# print("Out of the loop")
+
+for i in range(1,51):
+    if(i==21):
+        continue
+    if(i%3==0):
+        print(i)
